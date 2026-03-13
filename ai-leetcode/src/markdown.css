@@ -1,0 +1,44 @@
+
+.custom-markdown {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.custom-markdown h3 {
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #f97316; /* Orange 500 */
+    border-bottom: 1px solid rgba(249, 115, 22, 0.2);
+    padding-bottom: 0.5rem;
+}
+
+.custom-markdown p {
+    margin-bottom: 1.25rem;
+    color: #d1d5db;
+}
+
+.custom-markdown ul, .custom-markdown ol {
+    margin-bottom: 1.25rem;
+    padding-left: 1.5rem;
+}
+
+.custom-markdown li {
+    margin-bottom: 0.5rem;
+}
+
+.custom-markdown code:not(pre code) {
+    background-color: rgba(31, 41, 55, 0.5);
+    color: #fb923c;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.375rem;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 0.875em;
+}
+
+.custom-markdown pre {
+    margin: 1.5rem 0;
+    border-radius: 0.75rem;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+}
