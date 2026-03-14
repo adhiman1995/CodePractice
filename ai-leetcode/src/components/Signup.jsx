@@ -113,7 +113,7 @@ export default function Signup({ setAuthToken, setUserProfile, onNavigateToLogin
 
                 <div className="mt-10 pt-8 border-t border-gray-50 text-center">
                     <p className="text-xs font-bold text-gray-400 uppercase tracking-widest leading-relaxed">
-                        Already Case?{' '}
+                        Already Registered?{' '}
                         <button onClick={onNavigateToLogin} className="text-orange-500 hover:text-orange-600 transition-colors ml-1">
                             Login
                         </button>
